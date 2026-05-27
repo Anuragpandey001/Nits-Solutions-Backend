@@ -160,11 +160,13 @@ node nits.js
 
 
 
-# API Base URL
+# API Base URLs
 
-```txt
+## Local Development
 http://localhost:5000/api
-```
+
+## Production (Live Backend)
+https://nits-solutions-backend.onrender.com/api
 
 ---
 
@@ -172,6 +174,10 @@ http://localhost:5000/api
 
 ```txt
 http://localhost:5000/api-docs
+
+
+https://nits-solutions-backend.onrender.com/api-docs
+
 ```
 
 ---
