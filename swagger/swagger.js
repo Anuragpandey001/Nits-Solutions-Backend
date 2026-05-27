@@ -17,8 +17,14 @@ const swaggerOptions = {
 
         servers: [
             {
+                url: "http://localhost:5000",
+                description: "Local Development Server",
+            },
+
+            {
                 url:
-                    "http://localhost:5000",
+                    "https://nits-solutions-backend.onrender.com",
+                description: "Production Server",
             },
         ],
 
