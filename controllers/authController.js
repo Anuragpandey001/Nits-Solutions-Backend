@@ -104,7 +104,7 @@ const loginUser = asyncHandler(
 
         if (!user) {
             throw new CustomError(
-                "Invalid credentials",
+                "User not found",
                 401
             );
         }
