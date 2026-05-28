@@ -358,8 +358,6 @@ Example Error Response:
 - Pagination
 - Rate Limiting
 - HTTP Only Cookies
-- Logout API
-- Docker Support
 - Redis Session Management
 - Forgot Password via Email Verification
 - Send OTP to User Email

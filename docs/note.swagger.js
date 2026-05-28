@@ -67,3 +67,32 @@
  *       401:
  *         description: Unauthorized - Access token missing or invalid
  */
+
+
+
+/**
+ * @swagger
+ * /api/notes/{id}:
+ *   delete:
+ *     summary: Delete Secure Note
+ *     description: Delete a note by ID for authenticated user using accessToken
+ *     tags:
+ *       - Notes
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Note ID
+ *         schema:
+ *           type: string
+ *           example: 6891c7d1b2c34f8a91ab1234
+ *     responses:
+ *       200:
+ *         description: Note deleted successfully
+ *       401:
+ *         description: Unauthorized - Access token missing or invalid
+ *       404:
+ *         description: Note not found
+ */

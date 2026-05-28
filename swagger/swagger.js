@@ -28,6 +28,20 @@ const swaggerOptions = {
             },
         ],
 
+
+        tags: [
+            {
+                name: "Auth",
+                description:
+                    "Authentication APIs",
+            },
+            {
+                name: "Notes",
+                description:
+                    "Secure Notes APIs",
+            },
+        ],
+
         components: {
             securitySchemes: {
                 bearerAuth: {
